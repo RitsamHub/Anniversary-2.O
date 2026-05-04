@@ -7,20 +7,15 @@ import ScreenContainer from "../ScreenContainer"
 export default function MessageScreen() {
     const [showOverlay, setShowOverlay] = useState(false)
 
-    const romanticMessage = `My Dearest Cutiepiee,
-
-Every day with you feels like a beautiful dream that I never want to wake up from. You've brought so much joy, laughter, and warmth into my life that I can't imagine a world without you in it.
-
-From the moment we first met, I knew there was something special about you. Your smile lights up my darkest days, your laugh is my favorite sound in the world, and your love has made me a better person.
-
-Thank you for being my partner, my best friend, and my greatest love. Thank you for all the little moments that make up our big love story - the morning coffees, the late-night conversations, the silly jokes, and the quiet moments where we just exist together in perfect harmony.
-
-I promise to love you through all of life's adventures, to support your dreams, to laugh with you, cry with you, and grow old with you. You are my today, my tomorrow, and my always.
-
-Happy Anniversary, my beautiful soul. Here's to many more years of love, laughter, and endless happiness together.
-
-With all my love and devotion,
-Your Forever Person 💕`
+    const romanticMessage = `My Dearest Cutiepiee ❤️
+Har din tumhare saath aisa lagta hai jaise ek beautiful dream ho, jisse main kabhi jagna hi na chahoon. Tumne meri life mein itni khushi, itni warmth aur itna pyaar bhar diya hai ki ab tumhare bina duniya imagine bhi nahi hoti.
+Shayad hum kabhi mile nahi, par pehle din se hi mujhe feel ho gaya tha ki tum kuch special ho. Tumhari smile mere dark days ko bhi light kar deti hai, aur tumhari awaaz mere liye sabse favourite sound hai. Tumhara pyaar ne mujhe better insaan banaya hai.
+Thank you mere partner banne ke liye, mere best friend banne ke liye, aur meri life ka sabse important part hone ke liye. Hamari late-night baatein, chhoti-chhoti moments, aur woh sab feelings jo sirf hum samajhte hain… yeh sab meri life ka sabse precious part hai.
+Main promise karta hoon ki chahe distance ho ya time, main hamesha tumhare saath rahunga. Tumhare dreams support karunga, tumhare saath hasunga, kabhi ro bhi pade toh saath hi rahunga… aur ek din real mein tumhare saath zindagi jeeyunga.
+Tum meri aaj ho, meri kal ho, aur meri hamesha rahogi. ❤️
+Happy Anniversary, meri jaan. Jaldi milne ka wait hai… tab tak bas aise hi pyaar karte rehna. 💕
+With all my love,
+Your Forever Person 💗`
 
     const handleCardClick = () => {
         setShowOverlay(true)
